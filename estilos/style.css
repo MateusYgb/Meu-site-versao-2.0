@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+/*
+Pequeno: 600px;
+Medium Devices: 768px;
+Large devices: 992px;
+Extra large: 1200;
+*/
+
+:root {
+    --cor-cor01: #93C1E8;
+    --cor-cor02: #64A3D7;
+    --cor-cor03: #2373B6;
+    --cor-cor04: #0A5898;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    background-color: var(--cor-cor04);
+    height: 22.5%;
+}
+
+header > h1 {
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#textoHeader {
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+section {
+    width: 500px;
+    margin: auto;
+    text-align: justify;
+    padding: 10px;
+    line-height: 1.4;
+    font-size: 1.1em;
+}
+
+section  h2 {
+    text-align: center;
+    
+    border-radius: 20px;
+    margin-bottom: 30px;
+    padding: 10px;
+
+    background-color: var(--cor-cor02);
+    color: var(--cor-cor04);
+    color: white;
+}
+
+
+#hobbies { 
+    background-image: url(../fotos/foto_fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center right;
+    box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.311);
+}
+
+#hobbies  img {
+    width: 200px;
+    border-radius: 30px;
+}
+
+#hobbies  p {
+    color: white;
+}
+
+.textoHobbies {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.33);
+    border-radius: 20px;
+}
+
+footer {
+    background-color: var(--cor-cor04);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
