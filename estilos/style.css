@@ -52,7 +52,7 @@ nav > a {
 }
 
 main {
-    width: 480px;
+    width: 400px;
     margin: auto;
     background-color: var(--cor-cor03);
     border-bottom: var(--cor-cor03) solid 19px;
@@ -71,14 +71,14 @@ main h2 {
 
 p {
     text-align: justify;
-    font-size: 1.1em;
+    font-size: 0.9em;
     line-height: 1.3;
     margin-top: 20px;
 }
 
 section {
     background-color: white;
-    width: 450px;
+    width: 380px;
     margin: auto;
     padding: 10px;
 }
