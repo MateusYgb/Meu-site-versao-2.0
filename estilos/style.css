@@ -26,7 +26,7 @@ body {
 }
 
 header {
-    background-color: var(--cor-cor04);
+    background-image: linear-gradient(to bottom, var(--cor-cor03), var(--cor-cor04));
     color: white;
     text-align: center;
     width: 100%;
@@ -39,7 +39,7 @@ header > h1 {
 header > p {
     text-align: center;
     line-height: 1.0;
-    margin-top: 0px ;
+    margin-top: 0px;
 }
 nav {
     margin-top: 30px;
@@ -52,7 +52,7 @@ nav > a {
 }
 
 main {
-    width: 70%;
+    width: 90%;
     margin: auto;
     background-color: var(--cor-cor03);
     border-bottom: var(--cor-cor03) solid 19px;
@@ -121,3 +121,4 @@ footer {
     padding: 15px;
     margin-top: 20px;
 }
+
