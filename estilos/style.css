@@ -52,7 +52,7 @@ nav > a {
 }
 
 main {
-    width: 400px;
+    width: 70%;
     margin: auto;
     background-color: var(--cor-cor03);
     border-bottom: var(--cor-cor03) solid 19px;
@@ -78,7 +78,7 @@ p {
 
 section {
     background-color: white;
-    width: 380px;
+    width: 95%;
     margin: auto;
     padding: 10px;
 }
@@ -96,6 +96,8 @@ section {
     display: flex;
     margin-top: 20px;
     background-color: rgba(0, 0, 0, 0.333);
+    width: 100%;
+    height: auto;
 }
 
 .textoHobbies > p {
@@ -108,7 +110,8 @@ section {
     border-radius: 15px;
 }
 img {
-    width: 200px;
+    width: 30vw;
+    height: 25vh;
 }
 
 footer {
