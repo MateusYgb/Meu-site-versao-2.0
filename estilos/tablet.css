@@ -1,0 +1,41 @@
+:root {
+    --cor-cor01: #93C1E8;
+    --cor-cor02: #64A3D7;
+    --cor-cor03: #2373B6;
+    --cor-cor04: #0A5898;
+}
+
+#fundoAzul {
+
+
+
+}
+
+main {
+    width: 70%;   
+}
+
+#fundoAzul {
+}
+
+#sobremim {
+    width: 95%;
+}
+
+.paddingTexto {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#hobbies {
+    width: 95%;
+}
+
+#musicasFav {
+    width: 95%;
+}
+
+.textoHobbies {
+    border-radius: 20px;
+}
+
