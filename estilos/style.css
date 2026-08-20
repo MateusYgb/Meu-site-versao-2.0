@@ -98,6 +98,7 @@ section {
     background-color: rgba(0, 0, 0, 0.333);
     width: 100%;
     height: auto;
+    border-radius: 20px;
 }
 
 .textoHobbies > p {
